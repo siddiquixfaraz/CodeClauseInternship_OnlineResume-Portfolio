@@ -1,0 +1,54 @@
+.contact{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact h2{
+    font-size: 45px;
+    height: 20%;
+    /* border: 2px solid darkblue; */
+}
+.contact-main{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid darkblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main-left{
+    width: 30%;
+
+    /* border: 2px solid darkblue; */
+}
+.main-right{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid darkblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-right form{
+    width: 600px;
+    /* border: 2px solid darkblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.main-right form input{
+    height: 50px;
+    padding: 5px;
+}
+.main-right form textarea{
+    height: 200px;
+    padding: 5px;
+}

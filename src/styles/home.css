@@ -1,0 +1,16 @@
+.home{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+.home h2{
+    font-size: 2rem;
+    
+}
+.home h1{
+    font-size: 6rem;
+}

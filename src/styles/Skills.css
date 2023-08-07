@@ -1,0 +1,39 @@
+.skills{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid khaki; */
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 50%; */
+}
+.skills h2{
+    font-size: 45px;
+}
+.skills-main{
+    position: relative;
+    font-size: 3rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    background:  repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #fff 5px,#fff 100px);
+}
+
+.skills-tag{
+    background-color: rgb(58, 52, 52);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    font-size: 34px;
+}
+.skills-tag span{
+    color: white; 
+    font-size: 2rem;
+}

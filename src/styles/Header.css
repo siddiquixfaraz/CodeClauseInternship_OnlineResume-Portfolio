@@ -1,0 +1,49 @@
+
+.brand{
+    border-radius: 50%;
+    padding: 8px;
+    background-color: black;
+    cursor: pointer;
+}
+nav h2{
+    font-size: 2rem;
+    color: white;
+    font-weight:700;
+}
+
+nav{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+nav div{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    gap: 60px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.hover-link{
+    position: relative;
+    font-weight: 500;
+}
+
+.hover-link::after{
+    position: absolute;
+    content: "";
+    background: black;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.hover-link:hover::after{
+    width: 100%;
+}
