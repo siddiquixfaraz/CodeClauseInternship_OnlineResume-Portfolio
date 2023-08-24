@@ -12,8 +12,8 @@
 
 .about-left {
     border: 1px solid rgb(58, 52, 52);
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,17 +23,17 @@
 }
 .about-left img{
     /* border: 2px solid rgb(58, 52, 52); */
-    height: 400px;
+    height: 350px;
     width: 300px;
     border-radius: 15px;
 }
 .about-border-div{
     position: absolute;
-    /* background-color: rgb(58, 52, 52); */
+    background-color: rgb(58, 52, 52);
     border: 1px solid rgb(58, 52, 52);
     z-index: -7;
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 350px;
     bottom: -15px;
     right:  -15px;
     border-radius: 20px;
@@ -42,7 +42,16 @@
     /* border: 3px solid saddlebrown; */
     height: 500px;
     width: 400px;
+   
 }
 .about-right p{
-    font-size: 24px;
+    font-size: 18px;
+    color: rgb(71 85 105);
+}
+
+.resume{
+    padding: 5px 15px;
+    box-shadow: 1px 2px 2px rgb(204, 204, 210);
+    color: black;
+    font-size: 20px;
 }

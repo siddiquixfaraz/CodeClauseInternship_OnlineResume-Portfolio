@@ -9,13 +9,16 @@ export const Card = () => {
     <div className="cards">
             <div className='border-div'></div>
                 <div className="cards-img">
-                    <img src="https://img.freepik.com/free-photo/close-up-hand-with-painting-pallete_23-2148915877.jpg?w=1380&t=st=1691370022~exp=1691370622~hmac=44462d05ef7549bd8ef970d7cb85c688bd95e750578fa4754aeba125a6c4337e" alt="" />
+                    <img src="./images/project-ss-1.png" alt="" />
                 </div>
                 <div className="cards-content">
-                <span>Website Template</span>
-                <span>NFT collection Website</span>
+                <span>Beat Buddy</span>
+                <span>Music website Made in reactjs</span>
+                <div className="content-logo">
                 <a href="/"><img src="https://img.favpng.com/4/20/21/github-computer-icons-icon-design-png-favpng-KaDTwuHWgG8D1qn47QW2hK7Gj.jpg" alt="" /></a>
-                <a href="/"><FontAwesomeIcon icon={faLink} /></a>
+                <a href="https://reactjs-beat-buddy.vercel.app/" target="_blank"><FontAwesomeIcon icon={faLink} /></a>
+                </div>
+                
                 </div>
       </div>
   )
@@ -30,6 +33,9 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
         </div>
         <div className="projects">
+            <Card/>
+            <Card/>
+            <Card/>
             <Card/>
             <Card/>
            

@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Contact.css'
+import { AiFillTwitterSquare ,AiFillLinkedin, AiFillInstagram, AiFillGithub, AiOutlineWhatsApp, AiOutlineContacts, AiOutlinePhone} from 'react-icons/ai';
+
 
 const Contact = () => {
   return (
@@ -8,11 +10,14 @@ const Contact = () => {
       <div className="contact-main">
         <div className="main-left">
           <div className="main-left-card">
-            <span>logo</span>
+            <span><AiOutlineWhatsApp/></span>
             <span>logo</span>
             <span>logo</span>
           </div>
-          <div className="main-left-card"></div>
+          <div className="main-left-card">
+          <span><AiOutlinePhone/></span>
+
+          </div>
           <div className="main-left-card"></div>
         </div>
         <div className="main-right"><form>

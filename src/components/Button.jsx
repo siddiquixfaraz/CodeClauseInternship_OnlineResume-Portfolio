@@ -4,9 +4,7 @@ import '../styles/Button.css'
 
 const Button  = () => {
   return (
-    <div className="btn-primary">
-        Hire Me!
-    </div>
+    <a className='hover-link' href='#contact'>Hire Me!</a>
   )
 }
 

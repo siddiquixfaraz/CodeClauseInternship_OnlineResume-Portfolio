@@ -14,3 +14,21 @@
 .home h1{
     font-size: 6rem;
 }
+
+.socials{
+    position: fixed;
+    bottom: 40%;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 577;
+}
+.socials svg{
+    font-size: 35px;
+    fill: grey;
+}
+.socials svg:hover{
+    transform: translateY(-5px);
+    fill: black
+}
