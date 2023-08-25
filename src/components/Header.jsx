@@ -22,7 +22,7 @@ const NavContent = () =>{
             className="brand">
                 <h2>FA.</h2>
             </motion.div>
-            <div>
+            <div className='nav-main-content'>
                 <a className='hover-link' href='/'>Home</a>
                 <a className='hover-link' href='#about'>About</a>
                 <a className='hover-link' href='#portfolio'>Portfolio</a>

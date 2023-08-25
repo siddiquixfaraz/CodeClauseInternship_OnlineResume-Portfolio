@@ -21,7 +21,6 @@ const About = () => {
          <p> On the backend, I bring projects to life using Node.js and Express.js. </p>
          <button className='resume'><a href="./Faraz_resume.pdf" download target="_blank"  >Resume</a></button>
          
-        
       </div>
     </div>
   )

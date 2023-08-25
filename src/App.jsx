@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import './styles/app.css';
 import './styles/Header.css';
+import './styles/media-queries.css'
 
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/home.css';
 import Typewriter from 'typewriter-effect';
 import 'animate.css';
-import { AiFillTwitterSquare ,AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
+import { AiFillTwitterSquare,AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
 
 const Home = () => {
   return (
@@ -29,7 +29,6 @@ const Home = () => {
       <a href="https://www.linkedin.com/in/faraz-ahmad-71b837233/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></a>
       <a href="https://github.com/siddiquixfaraz" target="_blank" rel="noopener noreferrer"><AiFillGithub/></a>
       <a href="http://" target="_blank" rel="noopener noreferrer"><AiFillInstagram/></a>
-      
     </div>
     </>
   )

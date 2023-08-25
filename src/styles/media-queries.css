@@ -1,0 +1,67 @@
+@media  screen and (max-width: 950px) {
+    .nav-main-content{
+        display: none;
+    }
+
+    .socials{
+        display: none;
+    }
+    .about{
+        margin-bottom: 100px;
+    }
+
+    .about-left{
+        height: 400px;
+        width: 300px;
+    }
+
+    .about-left img{
+        height: 300px;
+        width: 250px;
+    }
+
+    .about-border-div{
+        height: 400px;
+        width: 300px;
+      
+    }
+    .about-right{
+        height: 450px;
+        width: 350px;
+    }
+
+    .home{
+        margin-bottom: 100px;
+    }
+
+    .cards{
+        height: 290px;
+        width: 400px;
+    }
+    .cards-img{
+        height: 170px;
+        width: 330px;
+    }
+    .cards-img img{
+        height: 170px;
+        width: 330px; 
+    }
+
+    .border-div{
+        height: 290px;
+        width: 400px;
+    }
+    .about-right p{
+        font-size: 16px;
+    }
+
+    .main-right form{
+        width: 420px;
+        
+    }
+    .footer{
+        margin-top: 50px;
+    }
+    
+    
+}
