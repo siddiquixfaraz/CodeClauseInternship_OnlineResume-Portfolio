@@ -29,11 +29,14 @@
     width: 430px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 20px;
     align-items: center;
     padding: 10px;
     position: relative;
-    background-color: rgb(231, 232, 232);
+    /* background-color: rgb(231, 232, 232); */
+    background-color: white;
+    box-shadow: 3px 3px #282825;
+
 }
 .cards-img{
     border: 2px solid rgb(58, 52, 52);
@@ -53,7 +56,7 @@
    transform: scale(1.2);
 }
 
-.border-div{
+/* .border-div{
     position: absolute;
     background-color: rgb(58, 52, 52);
     z-index: -3;
@@ -62,7 +65,7 @@
     bottom: -15px;
     right: -10px;
     border-radius: 20px;
-}
+} */
 
 a img{
     width: 40px;

@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <>
     <div className='home' id='home'>
-      <h3 className="animate__animated animate__fadeInDown">Hello I'm</h3>
-      <h1 className="animate__animated animate__fadeInDown">Faraz.</h1>
+      <h3 className="animate__animated animate__fadeInDown font-extrabold">Hello I'm</h3>
+      <h1 className="animate__animated animate__fadeInDown font-extrabold">Faraz.</h1>
 
-      <h2 >
+      <h2 className='font-semibold' >
         <Typewriter
           options={
             {

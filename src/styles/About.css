@@ -12,15 +12,18 @@
 }
 
 .about-left {
-    border: 1px solid rgb(58, 52, 52);
+    border: 1px solid #282825;
     height: 450px;
     width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 20px;
     position: relative;
-    background-color: rgb(231, 232, 232);
+    /* background-color: rgb(231, 232, 232); */
+    background-color: white;
+    z-index: 22;
+    box-shadow: 3px 3px #282825;
 }
 .about-left img{
     /* border: 2px solid rgb(58, 52, 52); */
@@ -28,17 +31,18 @@
     width: 300px;
     border-radius: 15px;
 }
-.about-border-div{
+/* .about-border-div{
     position: absolute;
     background-color: rgb(58, 52, 52);
     border: 1px solid rgb(58, 52, 52);
-    z-index: -7;
+    z-index: -1;
     height: 450px;
     width: 350px;
     bottom: -15px;
     right:  -15px;
     border-radius: 20px;
-}
+} */
+
 .about-right{
     /* border: 3px solid saddlebrown; */
     height: 500px;
@@ -52,7 +56,15 @@
 
 .resume{
     padding: 5px 15px;
-    box-shadow: 1px 2px 2px rgb(204, 204, 210);
+    background-color: #f7cb45;
+    border-radius: 50px;
     color: black;
     font-size: 20px;
+    transition: transform .25s linear;
+    box-shadow: 3px 3px #282825;
+}
+.resume:hover{
+    transform:translateX(-20px);
+    transform:translateY(-2px);
+    
 }

@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     /* border: 2px solid black; */
-    background:  repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #fff 5px,#fff 100px);
+    background:  repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f9f5f2 5px,#f9f5f2 100px);
 }
 
 .skills-tag{

@@ -12,7 +12,7 @@ export const Card = ({img,gitlink,livelink,title,des}) => {
                     <img src={img} alt="" />
                 </div>
                 <div className="cards-content">
-                <span>{title}</span>
+                <span className='bg-red-500'>{title}</span>
                 <span>{des}</span>
                 <div className="content-logo">
                 <a href={gitlink} target="_blank"><img src="https://img.favpng.com/4/20/21/github-computer-icons-icon-design-png-favpng-KaDTwuHWgG8D1qn47QW2hK7Gj.jpg" alt="" /></a>

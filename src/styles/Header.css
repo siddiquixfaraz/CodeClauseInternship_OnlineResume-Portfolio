@@ -16,7 +16,7 @@ nav{
     /* border: 2px solid black; */
     align-items: center;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 18px 136px;
 }
 
 nav div{
@@ -37,7 +37,7 @@ nav div{
     position: absolute;
     content: "";
     background: black;
-    height: 3px;
+    height: 2px;
     width: 0;
     bottom: 0;
     left: 0;
