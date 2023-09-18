@@ -7,14 +7,14 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer' id='about'>
-      <h2>Fara Ahmad</h2>
-      <div className="footer-link">
+      <h2>@Fara Ahmad</h2>
+      {/* <div className="footer-link">
         <a href="/"><BsInstagram/></a>
         <a href="/"><AiFillTwitterSquare/></a>
         <a href="/"><AiFillLinkedin/></a>
         <a href="/"><FaGithubSquare/></a>
-      </div>
-      <h5>@All rights reserved</h5>
+      </div> */}
+      <h5>All rights reserved</h5>
     </div>
   )
 }

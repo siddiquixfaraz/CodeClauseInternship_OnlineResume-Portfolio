@@ -87,7 +87,7 @@ a img{
 .content-logo{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .content-logo svg{
     width: 40px;

@@ -26,7 +26,7 @@ const Home = () => {
       </h2>
     </div>
     <div className="socials">
-      <a href="https://www.linkedin.com/in/faraz-ahmad-71b837233/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></a>
+      <a href="https://www.linkedin.com/in/faraz-ahmad-71b837233/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
       <a href="https://github.com/siddiquixfaraz" target="_blank" rel="noopener noreferrer"><AiFillGithub/></a>
       <a href="http://" target="_blank" rel="noopener noreferrer"><AiFillInstagram/></a>
     </div>

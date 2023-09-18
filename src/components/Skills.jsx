@@ -19,7 +19,7 @@ const Skill = ({name,x,y})=>{
 const Skills = () => {
   return (
     <div className='skills' id='skills'>
-        <h2>Skills</h2>
+        <h2 className='text-5xl font-semibold'>Skills</h2>
         <div className="skills-main">
             <motion.div 
             whileHover={{ scale:1.01}}>
