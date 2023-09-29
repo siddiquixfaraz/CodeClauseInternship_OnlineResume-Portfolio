@@ -8,7 +8,7 @@ import { AiFillGithub,AiOutlineLink } from 'react-icons/ai';
 
 export const Card = ({img,gitlink,livelink,title,des}) => {
   return (
-    <div className="cards">
+    <div className="cards md:w-[400px] mobile:w-[350px] mobile:p-3">
             <div className='border-div'></div>
                 <div className="cards-img">
                     <img src={img} alt="" />
@@ -28,7 +28,7 @@ export const Card = ({img,gitlink,livelink,title,des}) => {
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' className=''>
     <div className="main">
         <div className="title">
             <h2 className='text-5xl font-semibold'>Portfolio</h2>

@@ -4,7 +4,7 @@ import '../styles/Button.css'
 
 const Button  = () => {
   return (
-    <a className='hover-link' href='#contact'>Hire Me!</a>
+    <a className='hover-link mobile:hidden' href='#contact'>Hire Me!</a>
   )
 }
 

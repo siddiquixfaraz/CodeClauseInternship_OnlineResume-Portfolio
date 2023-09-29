@@ -33,23 +33,23 @@ const Contact = () => {
   };
 
   return (
-    <div  id="contact" className="w-full text-center min-h-fit">
+    <div  id="contact" className="w-full text-center">
       <ToastContainer />
       <h2 className='text-5xl font-semibold'>Contact Me</h2>
-      <div className="flex justify-center gap-40 py-10   h-[80vh] ">
+      <div className=" h-[80vh] flex justify-center gap-40 py-10 md:flex-col-reverse  lg:gap-10 md:items-center">
         <div className="flex flex-col gap-5 justify-center ">
           <div className="main-left-card  flex items-center gap-3">
             <span>
-              <AiOutlineWhatsApp size={30}    className="fill-green-700 hover:fill-red-300" />
+              <img src="./icons/whatsapp.svg" alt="" className="w-12"/>
             </span>
             <div className="main-left-card-content  flex  flex-col items-start">
-              <span>whatsapp</span>
+              <span>Whatsapp</span>
               <span>+917380860399</span>
             </div>
           </div>
           <div className="main-left-card gap-3  flex items-center">
             <span>
-              <AiOutlineMail size={30} />
+              <img src="./icons/icons8-gmail.svg" alt="" className="w-10" />
             </span>
             <div className="main-left-card-content flex flex-col items-start">
               <span>E-mail</span>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="main-left-card flex items-center gap-3">
             <span>
-              <FaLocationDot size={30} />
+              <img src="./icons/location.png" alt="" className="w-10"/>
             </span>
             <div className="main-left-card-content flex flex-col items-start">
               <span>Location</span>
@@ -68,12 +68,13 @@ const Contact = () => {
         </div>
         <div>
           <form onSubmit={handleSubmit}
-          className=" h-full flex flex-col gap-3">
+          className=" h-full flex flex-col gap-3 md:h-[300px]">
             <input
             className="w-96 p-3 border-gray-500 border"
               type="text"
               placeholder="Your Name"
               value={name}
+              required
               onChange={(e) => setName(e.target.value)}
             />
             <input
@@ -81,12 +82,14 @@ const Contact = () => {
               type="email"
               placeholder="Your Email"
               value={email}
+              required
               onChange={(e) => setEmail(e.target.value)}
             />
             <textarea
-            className="w-96 h-full p-3 border-gray-500 border"
+            className="w-96 h-full p-3 border-gray-500 border lg:h-64"
               placeholder="Your Message"
               value={message}
+              required
               onChange={(e) => setMessage(e.target.value)}
             />
             <button type="submit"
